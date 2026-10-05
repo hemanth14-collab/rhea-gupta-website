@@ -162,6 +162,10 @@ em { font-style: italic; color: var(--accent); }
   .nav nav a:not(.btn) { display: none; }
   .stats, .cards, .pillars, .extras { grid-template-columns: 1fr; }
   .stat-feature { grid-column: auto; }
+  .hero.wrap { gap: 28px; padding-top: 32px; }
+  .hero-photo { order: -1; max-width: none; display: flex; align-items: center; gap: 16px; justify-self: stretch; }
+  .hero-photo img { width: 112px; height: 112px; flex: none; border-radius: 50%; box-shadow: 0 12px 28px -14px rgba(60, 35, 20, 0.45); }
+  .hero-photo figcaption { position: static; box-shadow: none; border: 1px solid var(--line); padding: 12px 16px; }
   .timeline li { grid-template-columns: 1fr; gap: 6px; }
   .foot.wrap { flex-direction: column; gap: 8px; }
 }
